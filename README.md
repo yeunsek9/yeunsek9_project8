@@ -18,10 +18,11 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL Injection : "'OR SLEEP(5)=0--'" by inserting this SQL statement after id, it will make an SQL query.
 				: Other red and green pages indirect.
-
-
+				: https://github.com/yeunsek9/yeunsek9_project8/raw/master/Blue1.gif
+				
 Vulnerability #2: Session Hijacking/Fixation					
 				: Using the session that is already login, the attacker can change its session and get admin privileges.
+				: https://github.com/yeunsek9/yeunsek9_project8/raw/master/blue2.gif
 				
 
 
@@ -29,10 +30,12 @@ Vulnerability #2: Session Hijacking/Fixation
 
 Vulnerability #1: Username Enumeration		
 				: the mistake is that the output of valid username is in bold. The message is not the same between valid and non valid accaounts.
+				: https://github.com/yeunsek9/yeunsek9_project8/raw/master/Green1.gif
 				
 
 Vulnerability #2: Cross-Site Scripting
-				:When the admin see the feedback page, the feedback has a xss vulnerability. the script runs automatically whenever admin opens up the feedback page.
+				: When the admin see the feedback page, the feedback has a xss vulnerability. the script runs automatically whenever admin opens up the feedback page.
+				: https://github.com/yeunsek9/yeunsek9_project8/raw/master/Green2.gif
 				
 
 
@@ -41,10 +44,12 @@ Vulnerability #2: Cross-Site Scripting
 
 Vulnerability #1: Insecure Direct Object Reference	
 				: The saleperson database can be accessed by modifying the id value. For blue and green, it is not working to see id 10 and 11.
+				: https://github.com/yeunsek9/yeunsek9_project8/raw/master/Red1.gif
 				
 
 Vulnerability #2: Cross-Site Request Forgery	
 				: By clicking on the link, it will post request to make changes to the database.
+				: https://github.com/yeunsek9/yeunsek9_project8/raw/master/Red2.gif
 				
 
 
